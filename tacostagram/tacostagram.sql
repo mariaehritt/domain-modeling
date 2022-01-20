@@ -21,7 +21,8 @@ CREATE TABLE likes (
 CREATE TABLE comments (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     post_id INTEGER,
-    user_id INTEGER 
+    user_id INTEGER,
+    body TEXT
 );
 
 CREATE TABLE users (
