@@ -3,3 +3,32 @@
 -- e.g. DROP TABLE IF EXISTS ______;
 
 -- CREATE TABLES
+
+CREATE TABLE Contacts (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  first_name TEXT,
+  last_name TEXT,
+  email TEXT,
+  phone TEXT
+);
+
+CREATE TABLE Salespeople (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    first_name TEXT,
+    last_name TEXT,
+    email TEXT
+);
+
+CREATE TABLE Activity (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  type TEXT,
+  date_time TEXT,
+  notes TEXT,
+  salesperson_id TEXT
+);
+
+CREATE TABLE Companies (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  name TEXT,
+  industry TEXT
+);
