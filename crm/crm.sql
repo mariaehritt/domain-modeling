@@ -2,6 +2,11 @@
 -- run of this script
 -- e.g. DROP TABLE IF EXISTS ______;
 
+DROP TABLE IF EXISTS Contacts;
+DROP TABLE IF EXISTS Salespeople;
+DROP TABLE IF EXISTS Activity;
+DROP TABLE IF EXISTS Companies;
+
 -- CREATE TABLES
 
 CREATE TABLE Contacts (
